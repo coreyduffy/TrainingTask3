@@ -4,9 +4,14 @@ import java.util.List;
 
 import org.apache.ibatis.annotations.Select;
 
+import mvc_company.models.Employee;
+
 public interface IWorldMapper {
 	
 	@Select("select * from BU")
 	List<String> getContinents();
+	
+	@Select("select Employee_name, Address, National_insurance_number, Bank_account_IBAN, Starting_salary from Employees;")
+	List<Employee> getAllEmployee();
 
 }
