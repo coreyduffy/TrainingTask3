@@ -1,0 +1,5 @@
+package mvc_company.models;
+
+public class Employee {
+
+}
