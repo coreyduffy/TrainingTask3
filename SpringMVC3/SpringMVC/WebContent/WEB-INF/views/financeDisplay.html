@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Finance</title>
+
+
+ <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+
+
+</head>
+<body>
+	<h1>Employees by Gross Pay</h1>
+	<table>
+	<thead>
+	<tr>
+		<th>Employee</th>
+		<th>Gross Pay</th>
+	</tr>
+	</thead>
+	<tbody>
+		<#list studentList as s>
+			<tr>
+				<td>${s.firstName} ${s.lastName}</td>
+				<td>${s.gender}</td>
+			</tr>
+		</#list>
+	</tbody>
+	</table>
+
+	<a href="loginInput.html">Go Back</a>
+</body>
+</html>
