@@ -1,0 +1,13 @@
+!SESSION 2016-10-20 14:16:20.917 -----------------------------------------------
+eclipse.buildId=3.8.2.201610040743-RELEASE-e46
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.springsource.sts.ide -keyring /Users/joshuak/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.springsource.sts.ide -keyring /Users/joshuak/.eclipse_keyring
+
+!ENTRY org.eclipse.jface.text 2 0 2016-10-20 14:16:38.186
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2016-10-20 14:16:38.189
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
