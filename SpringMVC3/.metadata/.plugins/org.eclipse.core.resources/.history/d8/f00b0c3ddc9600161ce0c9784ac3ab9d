@@ -1,0 +1,17 @@
+package mvc_data;
+
+import java.util.List;
+
+import org.apache.ibatis.annotations.Select;
+
+import mvc_company.models.Employee;
+
+public interface IWorldMapper {
+	
+	@Select("select * from BU")
+	List<String> getContinents();
+	
+	@Select("select name, address, nationalInsuranceNumber, bankAccountIBAN, startingSalary from Employee;")
+	List<Employee> getAllEmployee();
+
+}
