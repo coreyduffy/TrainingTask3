@@ -14,4 +14,6 @@ public interface IWorldMapper {
 	@Select("select Employee_name as name, Address as address, National_insurance_number as nationalInsuranceNumber, Bank_account_IBAN bankAccountIBAN, Starting_salary as startingSalary from Employees;")
 	List<Employee> getAllEmployee();
 	
+	@Select("select Project_name as project, Employee_name as employee from Employees join EmployeeProject using (Employee_number) join Project using (Project_id)order by Project_Name;")
+    List<String> getEmployeeProjects();
 }
