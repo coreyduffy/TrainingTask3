@@ -65,7 +65,7 @@ String sql = "insert into Employees" +
                    + "\"" + employee.getNationalInsuranceNumber() + "\"" + ","
                    + "\"" + employee.getBankAccountIBAN() + "\"" + ","
                     + employee.getStartingSalary() + ","
-                    + employee.getEmployeeTypeID() + ","
+                    + employee.getEmployeeTypeId() + ","
                     + employee.getCommissionRate() + ","
 				    + employee.getTotalSales() + ")";
            

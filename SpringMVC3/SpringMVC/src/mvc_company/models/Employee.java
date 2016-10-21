@@ -13,7 +13,7 @@ public class Employee {
 	    private ArrayList<String> projects = new ArrayList<>();
 	    private String jobTitle;
 
-	    private int employeeTypeID;
+	    private int employeeTypeId;
 
 	    private int commissionRate;
 	    private int totalSales;
@@ -58,9 +58,9 @@ public class Employee {
 	        this.bankAccountIBAN = bankAccountIBAN;
 	    }
 
-	    public int getEmployeeTypeID() {return employeeTypeID;}
+	    public int getEmployeeTypeId() {return employeeTypeId;}
 
-	    public void setEmployeeTypeID(int employeeTypeID) {this.employeeTypeID = employeeTypeID;}
+	    public void setEmployeeTypeId(int employeeTypeId) {this.employeeTypeId = employeeTypeId;}
 
 	    public int getCommissionRate() {
 	        return commissionRate;
