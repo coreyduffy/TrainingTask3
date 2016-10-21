@@ -5,6 +5,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import mvc_company.models.Employee;
 import mvc_data.IWorldMapper;
 
 @Controller
@@ -17,6 +18,15 @@ public class HRController {
 	public String employees(Model m) {
 		m.addAttribute("employees", worldMapper.getAllEmployee());
 		return "hrDisplay";
+		
 	}
-
+			
 }
+
+
+		
+
+
+
+
+

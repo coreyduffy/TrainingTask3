@@ -11,7 +11,7 @@ public interface IWorldMapper {
 	@Select("select * from BU")
 	List<String> getContinents();
 	
-	@Select("select Employee_name, Address, National_insurance_number, Bank_account_IBAN, Starting_salary from Employees;")
+	@Select("select Employee_name as name, Address as address, National_insurance_number as nationalInsuranceNumber, Bank_account_IBAN bankAccountIBAN, Starting_salary as startingSalary from Employees;")
 	List<Employee> getAllEmployee();
-
+	
 }

@@ -11,7 +11,7 @@
 <tr><th>Employees</th></tr>
 <#list employees as employee>
 <tr>
-<td>${employee}</td>
+<td>${employee.name} ${employee.address}</td>
 </tr>
 </#list>
 </table>

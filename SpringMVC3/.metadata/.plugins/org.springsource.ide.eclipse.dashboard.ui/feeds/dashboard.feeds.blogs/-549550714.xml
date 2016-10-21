@@ -511,6 +511,18 @@ public class ExampleApplication implements CommandLineRunner {&#xD;
 &lt;/ul&gt;</content>
   </entry>
   <entry>
+    <title>Spring Boot wins JAX Innovation Award for 2016</title>
+    <link rel="alternate" href="https://spring.io/blog/2016/10/11/spring-boot-wins-jax-innovation-award-for-2016" />
+    <category term="news" label="News and Events" />
+    <author>
+      <name>Pieter Humphrey</name>
+    </author>
+    <id>tag:spring.io,2016-10-20:2663</id>
+    <updated>2016-10-11T10:47:00Z</updated>
+    <content type="html">&lt;p&gt;The winners of the &lt;a href="https://jaxenter.com/winners-jax-innovation-awards-2016-jax-london-129588.html"&gt;JAX Innovation Awards 2016&lt;/a&gt; have been announced this evening at the JAX Innovation Awards special event in London, United Kingdom. The winner of the ‘Most innovative contribution to the Java ecosystem’ category is &lt;a href="http://projects.spring.io/spring-boot"&gt;Spring Boot&lt;/a&gt;. Docker has been voted the most innovative solution to software delivery and DevOps while the Special Jury Award went to Let’s Encrypt. &lt;/p&gt;
+&lt;p&gt;&lt;img src="https://pbs.twimg.com/media/CvOp6OpVUAAMGAj.jpg" alt="Spring Boot wins JAX Innovation Award 2016" /&gt;&lt;/p&gt;</content>
+  </entry>
+  <entry>
     <title>Spring Tool Suite 3.8.2 released</title>
     <link rel="alternate" href="https://spring.io/blog/2016/10/07/spring-tool-suite-3-8-2-released" />
     <category term="releases" label="Releases" />
@@ -764,29 +776,5 @@ Issues&lt;/a&gt;, or via the comments section. You can also ping me
   &lt;li&gt;Spring Data Elasticsearch 1.3.6 - &lt;a href="https://repo.spring.io/libs-release/org/springframework/data/spring-data-elasticsearch/1.3.6.RELEASE"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/elasticsearch/docs/1.3.6.RELEASE/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/elasticsearch/docs/1.3.6.RELEASE/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/elasticsearch/docs/1.3.6.RELEASE/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Spring Data Couchbase 1.4.6 - &lt;a href="https://repo.spring.io/libs-release/org/springframework/data/spring-data-couchbase/1.4.6.RELEASE"&gt;Artifacts&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/couchbase/docs/1.4.6.RELEASE/api"&gt;JavaDocs&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/couchbase/docs/1.4.6.RELEASE/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="http://docs.spring.io/spring-data/couchbase/docs/1.4.6.RELEASE/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</content>
-  </entry>
-  <entry>
-    <title>Spring Statemachine 1.2.0.M1 Released</title>
-    <link rel="alternate" href="https://spring.io/blog/2016/09/29/spring-statemachine-1-2-0-m1-released" />
-    <category term="releases" label="Releases" />
-    <author>
-      <name>Janne Valkealahti</name>
-    </author>
-    <id>tag:spring.io,2016-09-29:2641</id>
-    <updated>2016-09-29T08:43:19Z</updated>
-    <content type="html">&lt;p&gt;We’re pleased to announce a first milestone release of &lt;a href="http://projects.spring.io/spring-statemachine"&gt;Spring Statemachine 1.2.0.M1&lt;/a&gt;. Artifacts are available from &lt;a href="http://repo.spring.io/libs-milestone/org/springframework/statemachine/"&gt;Spring Repository&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;What we got into this first milestone:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Usual bug fixes and small enhancements&lt;/li&gt;
-  &lt;li&gt;Support for UML submachines&lt;/li&gt;
-  &lt;li&gt;New Repository abstraction keeping machine configuration in an external repository&lt;/li&gt;
-  &lt;li&gt;New support for state actions.&lt;/li&gt;
-  &lt;li&gt;New transition error action concepts&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;There has been a support for complex state hierarchy from a day one but trouble was that everything had to be defined in a same state configuration. New submachine support adds a feature where a state can be associated with other machine which allows some level of re-use and makes configuration more clean.&lt;/p&gt;
-&lt;p&gt;States can now have their own actions which are executed while being on a state. Execution happens after entry actions and before exit actions and can be cancelled if state exit happens before action completes.&lt;/p&gt;
-&lt;p&gt;Common topic among enhacement requests has been to add ways to keep machine state configuration externally from a static configuration defined either via JavaConfig or imported UML sources. Base support for this has been out there starting from 1.1.0 release but its use has been relatively awkward. For this we added a new abstraction via Spring Data Repositories and first implementation supports JPA and there is a &lt;a href="http://docs.spring.io/spring-statemachine/docs/1.2.0.M1/reference/htmlsingle/#statemachine-examples-datajpa"&gt;JPA sample&lt;/a&gt; using embedded H2 database. Work we got into this first milestone is very basic(i.e. substates are not supported) but plan is to make it fully compatible with rest of a framework and add more OOB repository implementations(i.e. mongo/redis) in coming milestone releases.&lt;/p&gt;
-&lt;p&gt;Full changes as usual are available from &lt;a href="https://github.com/spring-projects/spring-statemachine/blob/master/docs/src/info/changelog.txt"&gt;changelog&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Thank you for all who have contributed in any way either via Stack Overflow, GitHub Issues or other channels. Driving force for changes really has been a community and requests from it.&lt;/p&gt;</content>
   </entry>
 </feed>
