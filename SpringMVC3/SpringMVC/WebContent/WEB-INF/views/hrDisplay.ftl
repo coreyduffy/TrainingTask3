@@ -10,8 +10,11 @@
 <table border=1>
 <tr><th>Employees</th></tr>
 <#list employees as employee>
+<#list projects as project>
 <tr>
-<td>${employee}</td>
+<td>${employee.name}</td>
+<td>${project}</td>
 </tr>
+</#list>
 </#list>
 </table>

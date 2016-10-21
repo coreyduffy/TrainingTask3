@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HR Input</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js"></script>
+</head>
+<body>
+<form method="post" action="hrinput.mvc" name="employee">
+<h1>Input Employee Data</h1>
+<label for nameInput>Employee Name:</label>
+<input type=text name=nameinput></input>
+<br>
+<label for addressInput>Address:</label>
+<input type=text name=addressInput></input>
+<br>
+<label for nationalInsuranceNo>National Insurance Number:</label>
+<input type=text name=nationalInsuranceNo></input>
+<br>
+<label for bankAccountInput>BankAccountNo:</label>
+<input type=text name=bankAccountInput></input>
+<br>
+<label for salaryInput>Starting Salary:</label>
+<input type=text name=salaryInput></input>
+<br>
+<label for employeeNumberInput>Employee Number:</label>
+<input type=text name=employeeNumberInput></input>
+<br>
+<br>
+
+<input type=submit></input>
+</form>
+
+
+
+</body>
+</html>
