@@ -25,7 +25,7 @@
 <input type=text name="startingSalary"></input>
 <br>
 <label for employeetypeid>EmployeeTypeID:</label>
-<input type=text name="employeetypeid"></input>
+<input type=text name="employeeTypeId"></input>
 <br>
 <label for commissionrate>Commission Rate:</label>
 <input type=text name="commissionrate"></input>

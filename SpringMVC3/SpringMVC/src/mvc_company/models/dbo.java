@@ -39,7 +39,7 @@ public class dbo {
 	                employee.setNationalInsuranceNumber(employeeQuery.getString("National_insurance_number"));
 	                employee.setBankAccountIBAN(employeeQuery.getString("Bank_account_IBAN"));
 	                employee.setStartingSalary(employeeQuery.getInt("Starting_salary"));
-	                employee.setEmployeeTypeID(employeeQuery.getInt("Employee_type_id"));
+	                employee.setEmployeeTypeId(employeeQuery.getInt("Employee_type_id"));
 	                employee.setCommissionRate(employeeQuery.getInt("Commission_rate"));
 	                employee.setTotalSales(employeeQuery.getInt("Total_sales"));
 	                employees.add(employee);
@@ -71,7 +71,7 @@ public class dbo {
 	                int EmployeeTypeID = jobTitleQuery.getInt("Employee_type_id");
 	                String JobTitle = jobTitleQuery.getString("Job_title");
 
-	                employees.stream().filter(i -> i.getEmployeeTypeID() == EmployeeTypeID).forEach(i -> i.setJobTitle(JobTitle));
+	                employees.stream().filter(i -> i.getEmployeeTypeId() == EmployeeTypeID).forEach(i -> i.setJobTitle(JobTitle));
 
 	                //jobTitles.add(jobTitle);
 	            }
